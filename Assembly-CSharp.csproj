@@ -323,6 +323,12 @@
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>/Applications/Unity/Hub/Editor/2021.2.7f1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
     </Reference>
+    <Reference Include="Vuforia.Unity.Engine">
+      <HintPath>Library/PackageCache/com.ptc.vuforia.engine@4a12b7010861-1674820190858/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.Unity.Wrapper">
+      <HintPath>Library/PackageCache/com.ptc.vuforia.engine@4a12b7010861-1674820190858/Vuforia/Plugins/Managed/Runtime/Vuforia.Unity.Wrapper.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>/Applications/Unity/Hub/Editor/2021.2.7f1/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
     </Reference>
@@ -719,11 +725,21 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
+    <Reference Include="VuforiaEditorScripts">
+      <HintPath>Library/ScriptAssemblies/VuforiaEditorScripts.dll</HintPath>
+    </Reference>
+    <Reference Include="VuforiaScripts">
+      <HintPath>Library/ScriptAssemblies/VuforiaScripts.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="CW.Common.csproj">
       <Project>{DD7D2935-8FE2-C4D9-097E-4077B5C76160}</Project>
       <Name>CW.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="CommonEditor.csproj">
+      <Project>{256F54AA-BBF4-73A5-8097-F8093E37FF0F}</Project>
+      <Name>CommonEditor</Name>
     </ProjectReference>
     <ProjectReference Include="LeanTouch.csproj">
       <Project>{DB1D8041-F18B-F92B-70F7-97E6F274425B}</Project>
@@ -736,6 +752,10 @@
     <ProjectReference Include="LeanCommon.csproj">
       <Project>{0A465D30-3E52-341E-4E5B-9B53275A766D}</Project>
       <Name>LeanCommon</Name>
+    </ProjectReference>
+    <ProjectReference Include="CommonScripts.csproj">
+      <Project>{53C35C1D-0D8B-779C-7861-BC714D2ADB1E}</Project>
+      <Name>CommonScripts</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{206652D9-FD21-F0C9-ECA9-B986BE976493}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/CW/LeanCommon/Required/Scripts/LeanCommon.cs">
+    <Files>
+      <File FileName="Assets/Plugins/CW/LeanTouch/Examples/Scripts/LeanTouchEvents.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/Plugins/CW/LeanTouch/Examples/Scripts/LeanPulseScale.cs" Line="1" Column="1" NotebookId="1" />
+      <File FileName="Assets/NeonShapes/SelfDestroyScript.cs" Line="12" Column="1" NotebookId="1" />
+      <File FileName="Assets/Editor/Migration/AddVuforiaEnginePackage.cs" Line="8" Column="18" NotebookId="1" />
+      <File FileName="Assets/Plugins/CW/LeanCommon/Required/Scripts/LeanCommon.cs" Line="1" Column="1" NotebookId="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WIP" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Editor" expanded="True">
+                <Node name="Migration" expanded="True" />
+                <Node name="Vuforia" expanded="True" />
+              </Node>
+              <Node name="NeonShapes" expanded="True" />
+              <Node name="Plugins" expanded="True">
+                <Node name="CW" expanded="True">
+                  <Node name="LeanCommon" expanded="True">
+                    <Node name="Required" expanded="True">
+                      <Node name="Scripts" expanded="True">
+                        <Node name="LeanCommon.cs" selected="True" />
+                      </Node>
+                    </Node>
+                  </Node>
+                  <Node name="LeanTouch" expanded="True">
+                    <Node name="Examples" expanded="True">
+                      <Node name="Scripts" expanded="True" />
+                    </Node>
+                    <Node name="Extras" expanded="True" />
+                    <Node name="Required" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="Assembly-CSharp-Editor" expanded="True">
+              <Node name="Assets" expanded="True">
+                <Node name="Editor" expanded="True">
+                  <Node name="Migration" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="06fee109-23fe-4a4d-b2a3-3c9aba25b2bf" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

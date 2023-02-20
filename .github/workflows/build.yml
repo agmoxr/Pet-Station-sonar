@@ -44,6 +44,4 @@ jobs:
         run: |
           .\.sonar\scanner\dotnet-sonarscanner begin /k:"agmoxr_Pet-Station-sonar" /o:"agmoxr" /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
           dotnet build ./WIP.sln --configuration Debug
-          dotnet build .CW.Common.csproj --configuration Debug
-          dotnet build .LeanTouch.csproj --configuration Debug
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"

@@ -10,40 +10,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="WIP" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Editor" expanded="True">
-                <Node name="Migration" expanded="True" />
-                <Node name="Vuforia" expanded="True" />
-              </Node>
-              <Node name="NeonShapes" expanded="True" />
-              <Node name="Plugins" expanded="True">
-                <Node name="CW" expanded="True">
-                  <Node name="LeanCommon" expanded="True">
-                    <Node name="Required" expanded="True">
-                      <Node name="Scripts" expanded="True">
-                        <Node name="LeanCommon.cs" selected="True" />
-                      </Node>
-                    </Node>
-                  </Node>
-                  <Node name="LeanTouch" expanded="True">
-                    <Node name="Examples" expanded="True">
-                      <Node name="Scripts" expanded="True" />
-                    </Node>
-                    <Node name="Extras" expanded="True" />
-                    <Node name="Required" expanded="True" />
-                  </Node>
-                </Node>
-              </Node>
-            </Node>
-            <Node name="Assembly-CSharp-Editor" expanded="True">
-              <Node name="Assets" expanded="True">
-                <Node name="Editor" expanded="True">
-                  <Node name="Migration" expanded="True" />
-                </Node>
-              </Node>
-            </Node>
-          </Node>
+          <Node name="WIP" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>
